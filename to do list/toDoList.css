@@ -1,0 +1,81 @@
+body{
+    margin : 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right, rgb(201, 199, 199), rgb(235, 232, 232));
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+button, input{
+    outline: none;
+    background: none;
+    border: none;
+}
+.MUI{
+    margin: 1rem;
+}
+.SMUI{
+    display: flex;
+}
+#UI{
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid  blue;
+    border-radius: 1rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+}
+.UIS{
+    margin-left: 1rem;
+    background-image: linear-gradient(to right, rgb(26, 26, 247) ,#fff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    text-align: center;
+    padding-right: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.LH{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.O{
+    display: flex;
+    background-image: linear-gradient(to right,white, lightgray); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.UO{
+    flex: 1;
+    background-color: #fff;
+    color: black;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.EB,.DB{
+    padding: 1rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    color: rgb(252, 11, 11);
+}
+.EB{
+    color: rgb(247, 133, 3);
+}
