@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission details</title>
+    <link rel="stylesheet" href="assignment.css">
+
+</head>
+<body>
+    <div class="b" id="B">
+        <button class="snc bb" id="SNC" onclick="chng()">Submission check</button>
+        <button class="ad bb" id="AD">Submission check</button>
+    </div>
+    <div class="list" id="LIST">
+        <div class="fbb" id="FBB">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="back" id="BB" onclick="back()"><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM384 288H205.3l49.38 49.38c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0L105.4 278.6C97.4 270.7 96 260.9 96 256c0-4.883 1.391-14.66 9.398-22.65l103.1-103.1c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L205.3 224H384c17.69 0 32 14.33 32 32S401.7 288 384 288z"/></svg>
+        </div>
+        <p class="para" id="PARA">No submissions yet...</p>
+        <!-- <div class="c1" id="C1"> 
+            <h1 class="sn" id="N">NAME</h1>
+            <button class="sr f" id="SR">Rollno</button>
+            <button class="sco f" id="SCO">Combination</button>
+            <button class="ss f" id="SS">Subject</button>
+            <button class="sc f" id="SC">class</button>
+            <br>
+            <input type="file" accept=".pdf" class="of" id="OF">
+        </div> -->
+    </div>
+    <div class="c2" id="C2" >
+        <form id="FORM">
+            <input type="text" placeholder="Name"       id="N"  class="n  d" required><br>
+            <input type="text" placeholder="Roll no"    id="RN" class="rn d" required><br>
+            <input type="text" placeholder="Subject"    id="S"  class="s  d" required><br>
+            <input type="text" placeholder="Combination" id="C" class="c  d" required><br>
+            <select name="class" class="sd" id="SD" >
+                <option value="selectHere">Slelct Here</option>
+                <option value="1stPU">1<sup>st</sup> PUC</option>
+                <option value="2ndPU">2<sup>nd</sup> PUC</option>
+            </select><br>
+            <input type="file" accept=".pdf" id="P" class="p d" required value="hii">
+            <input type="submit" class="sm" id="SM" >
+        </form>
+    </div>
+    <script src="assignment.js"></script>
+    
+</body>
+</html>
