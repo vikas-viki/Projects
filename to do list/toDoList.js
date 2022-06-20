@@ -50,6 +50,7 @@ function startListing(){
 
     let l = document.getElementById("L");
     l.appendChild(o);
+    
     db.addEventListener('click', () =>{
         o.style ="display: none";
     })
