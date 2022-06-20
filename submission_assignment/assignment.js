@@ -67,9 +67,7 @@ tb.setAttribute("alt","delete");
 tb.setAttribute("src","trashbox.png");
 tb.classList.add("tb");
 tb.id="TB";
-tb.addEventListner('click', () =>{
-    c1.style = "display : none;";
-}
+
 
 tb.addEventListener('click',() =>{
     c1.style = "display : none";
